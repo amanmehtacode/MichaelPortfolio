@@ -3619,7 +3619,7 @@
      * _.has
      * _.now
      *
-     * http://underscorejs.org
+     * https://underscorejs.org
      * (c) 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
      * Underscore may be freely distributed under the MIT license.
      * @license MIT
@@ -7969,7 +7969,7 @@
         }
         return s.ready = s.design = s.preview = function () {
             ! function () {
-                o = t("html").attr("data-wf-site"), u = "https://webflow.com/api/v1/form/" + o, d && u.indexOf("https://webflow.com") >= 0 && (u = u.replace("https://webflow.com", "http://formdata.webflow.com"));
+                o = t("html").attr("data-wf-site"), u = "https://webflow.com/api/v1/form/" + o, d && u.indexOf("https://webflow.com") >= 0 && (u = u.replace("https://webflow.com", "https://formdata.webflow.com"));
                 if (c = "".concat(u, "/signFile"), !(n = t(p + " form")).length) return;
                 n.each(m)
             }(), g || a || function () {
@@ -8109,7 +8109,7 @@
                     e = h[t]
                 }
                 var d, p, v = o;
-                return o = t, f.show(), S(e.html && (d = e.width, p = e.height, "data:image/svg+xml;charset=utf-8," + encodeURI('<svg xmlns="http://www.w3.org/2000/svg" width="' + d + '" height="' + p + '"/>')) || e.url, function (r) {
+                return o = t, f.show(), S(e.html && (d = e.width, p = e.height, "data:image/svg+xml;charset=utf-8," + encodeURI('<svg xmlns="https://www.w3.org/2000/svg" width="' + d + '" height="' + p + '"/>')) || e.url, function (r) {
                     if (t === o) {
                         var i, a, d = P("figure", "figure").append(C(r, "image")),
                             p = P("frame").append(d),
